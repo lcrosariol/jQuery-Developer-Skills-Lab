@@ -1,27 +1,57 @@
-body {
-
-}
-
-tr {
-
-
-}
-
-td {
-    height: 300em;
-    width: 300em;
+body { 
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
 
 
 }
- 
+
+.divMadeTable {
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    flex-direction: column;
+    position: relative;
+    top: 300px;
+    margin: 0 auto;
+}
+
+.red {
+    background-color: #e06666;
+    color: white;
+    text-align: center;
+}
+
+.buttons {
+    color: #ffbb55;
+    font-weight: 400;
+    font-size: 12pt;
+    position: relative;
+    left: 0;
+    /* align-items: left */
+    ;
+}
+
 h1 {
+    background-color: #93c47d;
+    color: white;
+    font-size: 14pt;
+    text-align: center;
+    height: 30px;
 
 }
 
 
+#addSkill {
+    color:#93c47d;
+    background-color: white;
+
+}
 
 
 .inputBox {
     border: 5px solid #93c47d;
     color: #93c47d;
+    position: left;
+
 }
