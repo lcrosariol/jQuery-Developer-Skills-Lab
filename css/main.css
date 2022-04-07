@@ -6,7 +6,7 @@ body {
     width: 500px;
     margin: 0 auto;
     padding-top: 300px;
-    
+    color: #ffbb55
 }
 
 
@@ -37,12 +37,10 @@ table {
 }
 
 
-.buttons {
-    color: #ffbb55;
+.buttons {                                               /* AT SOME POINT I CHANGED THIS CLASS YET IT STILL WORKS.  SO YEAH MY COMPUTER IS HAUNTED. */
     font-weight: 400;
     font-size: 12pt;
     border: solid white;
-
 }
 
 h1 {
@@ -52,15 +50,12 @@ h1 {
     font-size: 16pt;
     text-align: center;
     height: 40px;
-    
+}
+
 tbody {
     margin: 40px;
 }
 
-
-
-
-}
 tr {
     color: #ffbb55;
     font-weight: 600;
@@ -100,9 +95,17 @@ tr {
     color: white;
 }
 
+.input::selection{
+    outline: none;
+    border: green;
+
+}
+
 .inputSkills {
     display: flex;
     flex-direction: row;
-    
+    color: #ffbb55
 }
-
+/* 
+I THINK I GOT IT ALL EXCEPT THE INPUT BOX TURNS BLACK WHEN CLICKED.  
+NOT SURE HOW TO GET RID OF THAT ONE. */
